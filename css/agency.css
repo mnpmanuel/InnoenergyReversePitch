@@ -515,6 +515,10 @@ header.masthead img {
   color: #ffffff;
 }
 
+.last-editions section {
+  height: 750px;
+}
+
 .last-editions .text-muted {
   color: #ffffff !important;;
 }
@@ -538,6 +542,12 @@ header.masthead img {
 
 .last-editions img {
   max-width: 50%;
+}
+
+@media (max-width: 992px) {
+  .last-editions section {
+    height: 500px;
+  }
 }
 
 .team-member {
