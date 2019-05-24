@@ -18,7 +18,7 @@ a {
 }
 
 a:hover {
-  color: #fec503;
+  color: #96c247;
 }
 
 .text-primary {
@@ -76,8 +76,8 @@ section h3.section-subheading {
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-  background-color: #fec810 !important;
-  border-color: #fec810 !important;
+  background-color: #96c247 !important;
+  border-color: #96c247 !important;
   color: white;
 }
 
@@ -120,7 +120,7 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-  color: #fec503;
+  color: #96c247;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
@@ -532,11 +532,9 @@ header.masthead img {
 }
 
 .last-editions .blue {
-  /* height: 500px; */
   background-color: #004494;
 }
 .last-editions .green {
-  /* height: 500px; */
   background-color: #D0E185;
 }
 
@@ -556,10 +554,6 @@ header.masthead img {
 .last-editions .last-editions-section-special .last-editions-testimonial-mobile {
   display: none;
 }
-
-/* .last-editions .last-editions-section-special .last-editions-testimonial-desktop {
-  display: none;
-} */
 
 .last-editions img {
   max-width: 50%;
@@ -608,25 +602,9 @@ header.masthead img {
   }
 }
 
-.team-member {
-  margin-bottom: 50px;
-  text-align: center;
-}
-
-.team-member img {
-  width: 225px;
-  height: 225px;
-  border: 7px solid #fff;
-}
-
-.team-member h4 {
-  margin-top: 25px;
-  margin-bottom: 0;
-  text-transform: none;
-}
-
-.team-member p {
-  margin-top: 0;
+#CTA {
+  color: #004494;
+  background-color: #e9ecef;
 }
 
 #organization {
@@ -641,24 +619,30 @@ header.masthead img {
     background: #ffffff;
 }
 
+.organizations {
+  text-align: left;
+}
+
+.circle
+  {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    background: #ffffff;
+  }
+
 .organizations > li .organizations-image {
   width: 170px;
   height: 170px;
   margin-left: -85px;
 }
-/* .organizations {
+.organizations {
   position: relative;
   padding: 0;
-  list-style: none;
   color: #004494;
 }
 
-.organizations > li {
-  position: relative;
-  min-height: 50px;
-  margin-bottom: 50px;
-}
-.organizations > li .organizations-image {
+.organizations .organizations-image {
   position: absolute;
   z-index: 100;
   left: 0;
@@ -669,12 +653,13 @@ header.masthead img {
   color: white;
   border-radius: 100%;
   background-color: #ffffff;
-} */
+}
 
 footer {
   padding: 25px 0;
   text-align: center;
   color: #004494;
+  background-color: #e9ecef;
 }
 
 footer span.copyright {
