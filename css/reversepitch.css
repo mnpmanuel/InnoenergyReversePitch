@@ -4,6 +4,10 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-agency/blob/master/LICENSE)
  * Modded by Manuel Palmeira May 2019 (http://manuelpalmeira.xyz)
  */
+html{
+  overflow-x: hidden;
+}
+
 
 body {
   overflow-x: hidden;
@@ -224,6 +228,19 @@ header.masthead img {
 #about {
   background-color: #D0E185;
   color: #004494;
+}
+
+.about img {
+  float: right;
+}
+
+@media (max-width: 767px) {
+  .about .aboutMobile {
+    text-align: center;
+  }
+  .about img {
+    float: inherit;
+  }
 }
 
 .service-heading {
@@ -539,6 +556,18 @@ header.masthead img {
   background-color: #D0E185;
 }
 
+.last-editions .blueBottom {
+  background-color: #004494;
+}
+.last-editions .greenBottom {
+  background-color: #D0E185;
+}
+
+@media (max-width: 767px) {
+
+
+}
+
 .last-editions .last-editions-section-special {
   padding-top: 100px;
   padding-bottom: 100px;
@@ -561,6 +590,12 @@ header.masthead img {
 }
 
 @media (max-width: 767px) {
+  .last-editions .blueBottom {
+    background-color: #D0E185;
+  }
+  .last-editions .greenBottom {
+    background-color: #004494;
+  }
   .last-editions .last-editions-section-special img {
     max-width: 25%;
   }
@@ -580,6 +615,9 @@ header.masthead img {
   }
   .last-editions .last-editions-section-special .last-editions-testimonial-desktop {
     display: none;
+  }
+  .last-editions .green {
+    padding-top: 20px;
   }
 }
 
