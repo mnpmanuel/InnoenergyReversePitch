@@ -569,6 +569,7 @@ header.masthead img {
 }
 .last-editions .greenBottom {
   background-color: #D0E185;
+  color: #004494 !important;
 }
 
 @media (max-width: 767px) {
@@ -666,24 +667,16 @@ header.masthead img {
   color: #004494;
 }
 
-.circleBase {
-    border-radius: 100%;
-    width: 500px;
-    height: 500px;
-    background: #ffffff;
-}
-
 .organizations {
   text-align: left;
 }
 
-.circle
-  {
-    border-radius: 50%;
-    width: 200px;
-    height: 200px;
-    background: #ffffff;
-  }
+.circle {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  background: #ffffff;
+}
 
 .organizations > li .organizations-image {
   width: 170px;
@@ -761,6 +754,14 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 
 #faq .question {
   font-weight: bold;
+  color: #004494;
+}
+
+#faq a {
+  color: #ffffff;
+}
+
+#faq a:hover {
   color: #004494;
 }
 
